@@ -1,0 +1,5 @@
+{
+  "iss": "issuer",
+  "sub": "admin",
+  "aud": "audience"
+}

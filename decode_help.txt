@@ -1,0 +1,7 @@
+jwt-encoder decode
+required:
+-s <secret> or -sf <secret file location> (may need to use file if using a secret that has whitespace or line breaks, like an rsa key)
+-t <token>
+
+optional:
+-a <algorithm> (defaults to 'HS256')

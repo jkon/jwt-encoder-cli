@@ -1,0 +1,6 @@
+Usage: jwt-encoder <command>
+
+where <command> is one of:
+  encode, decode
+
+jwt-encoder <cmd> -h quick help on <cmd>

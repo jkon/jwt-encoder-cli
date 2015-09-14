@@ -1,0 +1,8 @@
+jwt-encoder encode
+required:
+-s <secret> or -sf <secret file location> (may need to use file if using a secret that has whitespace or line breaks, like an rsa key)
+-f <filename and path to payload>
+
+optional:
+-a <algorithm> (defaults to 'HS256')
+-e <expiration> (in milliseconds. defaults to 1 day if no value is given when flag is present)
