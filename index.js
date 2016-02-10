@@ -50,7 +50,7 @@ var readCommonFlags = function () {
       fileName = process.argv[indexOfSecretFileFlag + 1];
       try {
         flagValues.secret = fs.readFileSync(fileName);
-        console.log(secret);
+        console.log(flagValues.secret);
       } catch (err) {
         console.log('No such file: ' + fileName);
         process.exit(0);
